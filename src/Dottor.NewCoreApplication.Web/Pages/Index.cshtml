@@ -8,3 +8,23 @@
     <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
+
+
+@foreach (var region in Model.Regions)
+{
+    var cities = Model.Cities.Where(c => c.TourRegionId == region.Id).ToArray();
+
+    if (cities.Any())
+    {
+    <div>
+        <h2>@region.Name</h2>
+
+        @foreach (var city in cities)
+        {
+
+
+        }
+
+    </div>
+    }
+}

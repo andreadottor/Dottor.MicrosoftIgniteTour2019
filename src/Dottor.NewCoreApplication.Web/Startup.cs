@@ -15,6 +15,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using System.IO;
 using Microsoft.AspNetCore.DataProtection;
+using Dottor.MicrosoftIgnite.Data;
 
 namespace Dottor.NewCoreApplication.Web
 {
@@ -54,14 +55,10 @@ namespace Dottor.NewCoreApplication.Web
                 options.Cookie.SecurePolicy = CookieSecurePolicy.None;
             });
 
-            //services.AddAuthentication("Identity.Application")
-            //    .AddCookie("Identity.Application", options =>
-            //        {
-            //            options.Cookie.Name = ".MyApp.SharedCookie";
-            //            options.Cookie.SecurePolicy = CookieSecurePolicy.None;
-            //        });
-
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+
+
+            services.AddScoped<IIgniteTourRepository>(x => new IgniteTourRepository(Configuration.GetConnectionString("DefaultConnection")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
