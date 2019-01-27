@@ -15,7 +15,7 @@ namespace Dottor.WebFormApplication.Web.Cities
         {
             var data = new IgniteTourRepository(ConfigurationManager.ConnectionStrings["DefaultConnection"].ConnectionString);
             var cities = data.GetCities();
-            lvCities.DataSource = cities;
+            lvCities.DataSource = cities.OrderBy(c => c.StartDate).ToArray();
             lvCities.DataBind();
         }
     }

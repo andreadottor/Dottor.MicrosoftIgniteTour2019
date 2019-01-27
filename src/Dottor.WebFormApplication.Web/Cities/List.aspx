@@ -11,12 +11,9 @@
                 <td>
                     <a href="Edit?id=<%#: Item.Id %>">edit</a>
                 </td>
-                <td><%#: Item.TourRegionId %></td>
                 <td><%#: Item.Name %></td>
                 <td><%#: Item.DateDisplayed %></td>
-                <td><%#: Item.Visible %></td>
-                <td><%#: Item.LastUpdateDate %></td>
-                <td><%#: Item.LastUpdateUserName %></td>
+                <td><%# Item.Visible ? "<input type='checkbox' checked='checked' disabled />" : "" %></td>
             </tr>
         </ItemTemplate>
         <LayoutTemplate>
@@ -24,12 +21,9 @@
                 <thead class="thead-light">
                     <tr>
                         <th scope="col">&nbsp;</th>
-                        <th scope="col">Region</th>
                         <th scope="col">City</th>
                         <th scope="col">Data</th>
                         <th scope="col">Visible</th>
-                        <th scope="col">Date last update</th>
-                        <th scope="col">User last update</th>
                     </tr>
                 </thead>
                 <tbody>

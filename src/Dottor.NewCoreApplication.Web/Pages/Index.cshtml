@@ -12,7 +12,9 @@
 
 @foreach (var region in Model.Regions)
 {
-    var cities = Model.Cities.Where(c => c.TourRegionId == region.Id).ToArray();
+    var cities = Model.Cities
+                        .Where(c => c.TourRegionId == region.Id && c.Visible)
+                        .OrderBy(c => c.StartDate).ToArray();
 
     if (cities.Any())
     {
