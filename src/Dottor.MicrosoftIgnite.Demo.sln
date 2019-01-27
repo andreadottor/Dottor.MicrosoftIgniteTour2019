@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dottor.NewCoreApplication.Web", "Dottor.NewCoreApplication.Web\Dottor.NewCoreApplication.Web.csproj", "{80844D33-EFB9-42F2-89F3-6432D2E8C846}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dottor.WebFormApplication.Web", "Dottor.WebFormApplication.Web\Dottor.WebFormApplication.Web.csproj", "{14636267-F534-4C0E-94EB-7DA5B1F90CE2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80844D33-EFB9-42F2-89F3-6432D2E8C846}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80844D33-EFB9-42F2-89F3-6432D2E8C846}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80844D33-EFB9-42F2-89F3-6432D2E8C846}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80844D33-EFB9-42F2-89F3-6432D2E8C846}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14636267-F534-4C0E-94EB-7DA5B1F90CE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14636267-F534-4C0E-94EB-7DA5B1F90CE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14636267-F534-4C0E-94EB-7DA5B1F90CE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14636267-F534-4C0E-94EB-7DA5B1F90CE2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6E9F2B3A-7F34-4FC3-8ADF-DAFE6D4FD330}
+	EndGlobalSection
+EndGlobal
