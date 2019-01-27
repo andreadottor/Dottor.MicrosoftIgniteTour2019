@@ -1,7 +1,10 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="List.aspx.cs" Inherits="Dottor.WebFormApplication.Web.Cities.List" %>
 <asp:Content ID="cphMain" ContentPlaceHolderID="MainContent" runat="server">
 
+    <a href="Insert" class="btn btn-primary">Crea nuovo evento</a>
     
+    <br /><br />
+
     <asp:ListView runat="server" ItemType="Dottor.MicrosoftIgnite.Data.Models.TourCity" ID="lvCities">
         <ItemTemplate>
             <tr>

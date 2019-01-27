@@ -33,11 +33,14 @@ namespace Dottor.WebFormApplication.Web.Cities
                     dtDate.Date = city.StartDate;
                     ddlRegion.SelectedValue = city.TourRegionId.ToString();
                     cbVisible.Checked = city.Visible;
+
+                    txtUserLastEdit.Text = city.LastUpdateUserName;
+                    txtDateLastEdit.Text = city.LastUpdateDate.ToString();
                 }
             }
         }
 
-        protected void btnInsert_Click(object sender, EventArgs e)
+        protected void btnEdit_Click(object sender, EventArgs e)
         {
             if(Page.IsValid)
             {

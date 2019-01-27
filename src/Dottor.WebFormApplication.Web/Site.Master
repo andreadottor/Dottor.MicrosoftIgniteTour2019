@@ -40,7 +40,7 @@
             <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
-                 <a class="navbar-brand" runat="server" href="~/">Application name</a>
+                 <a class="navbar-brand" runat="server" href="https://localhost:44307/">Demo The Tour</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -75,13 +75,10 @@
 
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" runat="server" href="~/">Home</a>
+                            <a class="nav-link text-dark" runat="server" href="https://localhost:44307/">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" runat="server" href="~/About">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" runat="server" href="~/Contact">Contact</a>
+                            <a class="nav-link text-dark" href="http://localhost:5585/Cities/List">Edit eventi</a>
                         </li>
                     </ul>
                 </div>
@@ -99,6 +96,9 @@
     <footer class="border-top footer text-muted">
         <div class="container">
             <p>&copy; <%: DateTime.Now.Year %> - My ASP.NET Application</p>
+        </div>
+        <div class="alert alert-primary" role="alert">
+            Applicazione WebForm (.NET Framework 4.7.2)
         </div>
     </footer>
 

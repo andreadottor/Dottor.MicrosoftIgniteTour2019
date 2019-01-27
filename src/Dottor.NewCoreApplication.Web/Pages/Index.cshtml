@@ -5,8 +5,8 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4">Microsoft Ignite | The Tour</h1>
+    <p>Real case: migrate from Web Forms to ASP.NET Core gradually</p>
 </div>
 
 
@@ -16,15 +16,25 @@
 
     if (cities.Any())
     {
-    <div>
-        <h2>@region.Name</h2>
+        <div class="margin-top-20">
+            <h2>@region.Name</h2>
 
-        @foreach (var city in cities)
-        {
+            <div class="row">
+                @foreach (var city in cities)
+                {
+                    <div class="col-4 margin-top-20">
+                        <div class="card" style="width: 18rem;">
+                            <img src="@city.ImageUrl" class="card-img-top" alt="@city.Name">
+                            <div class="card-body">
+                                <h5 class="card-title">@city.Name</h5>
+                                <p class="card-text">@city.DateDisplayed</p>
+                                <a href="http://localhost:5585/Cities/Edit?id=@city.Id" class="btn btn-light btn-sm">edit</a>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
 
-
-        }
-
-    </div>
     }
 }

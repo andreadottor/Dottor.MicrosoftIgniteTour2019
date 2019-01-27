@@ -36,8 +36,19 @@
     <div class="form-check">
         <asp:CheckBox runat="server" ID="cbVisible" Checked="true" />
         <asp:Label runat="server" AssociatedControlID="cbVisible">Visibile</asp:Label>
-        
     </div>
 
-    <asp:Button runat="server" ID="btnInsert" Text="Salva" OnClick="btnInsert_Click" />
+    <asp:Button runat="server" ID="btnEdit" Text="Salva" OnClick="btnEdit_Click" />
+
+    <br />
+    <br />
+    <div class="form-inline">
+        <div class="form-group">
+            <asp:Label runat="server" AssociatedControlID="txtUserLastEdit">Ultima modifica:</asp:Label>&nbsp;
+            <asp:TextBox runat="server" ID="txtUserLastEdit" Enabled="false" CssClass="form-control" />&nbsp;
+            <asp:TextBox runat="server" ID="txtDateLastEdit" Enabled="false" CssClass="form-control" />
+        </div>
+    </div>
+    
+
 </asp:Content>
