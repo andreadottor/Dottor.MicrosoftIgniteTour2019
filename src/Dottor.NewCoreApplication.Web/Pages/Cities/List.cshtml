@@ -4,5 +4,32 @@
     ViewData["Title"] = "List";
 }
 
-<h1>List</h1>
 
+<a href="http://localhost:5585/Cities/Insert" class="btn btn-primary">Crea nuovo evento</a>
+
+<br /><br />
+
+
+<table class="table">
+    <thead class="thead-light">
+        <tr>
+            <th scope="col">&nbsp;</th>
+            <th scope="col">City</th>
+            <th scope="col">Data</th>
+            <th scope="col">Visible</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var city in Model.Cities)
+        {
+            <tr>
+                <td>
+                    <a href="http://localhost:5585/Cities/Edit?id=@city.Id">edit</a>
+                </td>
+                <td>@city.Name</td>
+                <td>@city.DateDisplayed</td>
+                <td>@if (city.Visible) {<input type='checkbox' checked='checked' disabled />}</td>
+            </tr>
+        }
+    </tbody>
+</table>
