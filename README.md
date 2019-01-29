@@ -1,5 +1,5 @@
 # Dottor.MicrosoftIgniteTour2019
-Demo della sessione "Real case: migrate from Web Forms to ASP.NET Core gradually" [15 minuti] tenuta al Microsoft Ignite The Tour di Milano il 1 febbraio 2019.
+Demo della sessione "**Real case: migrate from Web Forms to ASP.NET Core gradually**" [15 minuti] tenuta al *Microsoft Ignite The Tour* di Milano il 1 febbraio 2019.
 
 - Progetto **Dottor.NewCoreApplication.Web** ASP.NET Core 2.2. 
   - Emula il comportamento di una nuova applicazione.
