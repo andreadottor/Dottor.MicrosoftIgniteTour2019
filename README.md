@@ -1,3 +1,7 @@
+# Back to the Future: Migrare da WebForm ad ASP.NET Core gradualmente
+slide: [https://www.slideshare.net/andreadottor/back-to-the-future-migrare-da-webform-ad-aspnet-core-gradualmente-147736946](https://www.slideshare.net/andreadottor/back-to-the-future-migrare-da-webform-ad-aspnet-core-gradualmente-147736946) 
+
+
 # Dottor.MicrosoftIgniteTour2019
 Slide disponibili al seguente [link](https://techcommunity.microsoft.com/t5/Microsoft-Ignite-The-Tour/Real-case-migrate-from-Web-Forms-to-ASP-NET-Core-gradually/m-p/328685).
 
