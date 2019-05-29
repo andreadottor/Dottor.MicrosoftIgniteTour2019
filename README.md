@@ -1,11 +1,11 @@
-# Back to the Future: Migrare da WebForm ad ASP.NET Core gradualmente
-slide: [https://www.slideshare.net/andreadottor/back-to-the-future-migrare-da-webform-ad-aspnet-core-gradualmente-147736946](https://www.slideshare.net/andreadottor/back-to-the-future-migrare-da-webform-ad-aspnet-core-gradualmente-147736946) 
+Demo della sessione "**Real case: migrate from Web Forms to ASP.NET Core gradually**" [15 minuti] tenuta al *Microsoft Ignite The Tour* di Milano il 1 febbraio 2019, e "**Back to the Future: Migrare da WebForm ad ASP.NET Core gradualmente**" [60 minuti] tenuta a *XE One Day Enterprise Application* il 25 maggio 2019.
 
+# Back to the Future: Migrare da WebForm ad ASP.NET Core gradualmente [XE One Day Enterprise Application]
+Slide disponibili al seguente [link](https://www.slideshare.net/andreadottor/back-to-the-future-migrare-da-webform-ad-aspnet-core-gradualmente-147736946) 
 
-# Dottor.MicrosoftIgniteTour2019
+# Real case: migrate from Web Forms to ASP.NET Core gradually [Microsoft Ignite]
 Slide disponibili al seguente [link](https://techcommunity.microsoft.com/t5/Microsoft-Ignite-The-Tour/Real-case-migrate-from-Web-Forms-to-ASP-NET-Core-gradually/m-p/328685).
 
-Demo della sessione "**Real case: migrate from Web Forms to ASP.NET Core gradually**" [15 minuti] tenuta al *Microsoft Ignite The Tour* di Milano il 1 febbraio 2019.
 
 - Progetto **Dottor.NewCoreApplication.Web** ASP.NET Core 2.2. 
   - Emula il comportamento di una nuova applicazione.
